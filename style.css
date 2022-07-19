@@ -1,0 +1,24 @@
+.flex{
+  display: flex;
+  border: 1px solid #fff;
+}
+.flex div{
+  border: 1px solid #fff;
+}
+.right{/*div右側*/
+text-align:center;
+  height:60px;
+  line-height:60px;
+  width: 200px;
+  height: 500px;
+  background: #c0c0c0;
+}
+.left{/*div左側*/
+text-align:center;
+ height:30px;
+ line-height:60px;
+font-size: 150%;
+  width: calc(100% - 200px);
+  height: 60px;
+  background: #000080;
+}
