@@ -5,20 +5,58 @@
 .flex div{
   border: 1px solid #fff;
 }
-.right{/*div右側*/
-text-align:center;
+.right{/* 右フロートdiv */
+text-align:left;
   height:60px;
   line-height:60px;
   width: 200px;
-  height: 500px;
+  height: 700px;
   background: #c0c0c0;
 }
-.header{/*div左側*/
+.header{/* ヘッダーdiv */
 text-align:center;
- height:30px;
- line-height:60px;
+ height:100%;
+ line-height: 60px;
 font-size: 150%;
-  width: calc(100% - 200px);
+  width: calc(100%);
   height: 60px;
   background: #000080;
+}
+.body{ /* ヘッダー下div */
+text-align: center;
+   height: 500px;
+   line-height: 500px;
+font-size: 150%;
+  width: calc(100%);
+  height: 700px;
+  background: rgb(187, 185, 185);
+}
+
+.btn-wrapper {/* ボタンフロート */
+  display: inline-flex;
+  flex-direction: column;
+  align-items: start; /* ADD */
+}
+
+.btn-login { /* ログインボタン */
+  text-decoration: none;
+  background-color: #EC84A0;
+  color: #FFFFFF;
+  border-radius: 32px;
+  box-shadow: 3px 3px 10px #00000029;
+  font-size: 16px;
+  padding: 15px 30px;
+  margin-bottom: 12px;
+}
+
+.btn-sign-up { /* 新規登録ボタン */
+  text-decoration: none;
+  background-color: #FFFFFF;
+  color: #EC84A0;
+  border-radius: 32px;
+  box-shadow: 3px 3px 10px #00000029;
+  border: 2px solid #EC84A0;
+  font-size: 16px;
+  padding: 15px 30px;
+  margin-bottom: 70px;
 }
